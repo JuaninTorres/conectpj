@@ -73,6 +73,7 @@ function getHead($whereami='inicio')
     return $contenido;
 }
 
+
 function getHeader($whereami='inicio')
 {
     $contenido = '<div id="banner">'.getBanner().'</div>';
