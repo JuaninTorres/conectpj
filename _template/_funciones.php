@@ -39,7 +39,7 @@ function getHead($whereami='inicio')
     <link rel="shortcut icon" href="imagenes/logos/logo.ico" />
     <link rel="image_src" href="http://www.conectpj.com/imagenes/logos/logo.png" />
     <link rel="stylesheet" href="_js/normalize.css" />
-    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="_css/estilo.css" />
     <script src="_js/prefixfree.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>

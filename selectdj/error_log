@@ -1,0 +1,25 @@
+[06-Apr-2013 13:39:57 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[06-Apr-2013 13:43:25 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[06-Apr-2013 13:47:08 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[06-Apr-2013 13:47:13 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[06-Apr-2013 14:05:19 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[06-Apr-2013 14:05:22 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[06-Apr-2013 14:07:04 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[06-Apr-2013 16:50:33 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[06-Apr-2013 16:50:34 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[06-Apr-2013 16:50:39 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[06-Apr-2013 21:08:34 America/New_York] PHP Fatal error:  Call to undefined function php_info() in /home/admin/public_html/selectdj/info.php on line 2
+[06-Apr-2013 21:09:15 America/New_York] PHP Fatal error:  Call to undefined function php_info() in /home/admin/public_html/selectdj/info.php on line 2
+[06-Apr-2013 21:09:17 America/New_York] PHP Fatal error:  Call to undefined function php_info() in /home/admin/public_html/selectdj/info.php on line 2
+[07-Apr-2013 00:37:16 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[07-Apr-2013 00:38:41 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[07-Apr-2013 00:38:44 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[07-Apr-2013 00:38:45 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[07-Apr-2013 00:38:46 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[07-Apr-2013 00:38:46 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[07-Apr-2013 00:38:54 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[07-Apr-2013 00:38:55 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[07-Apr-2013 00:38:55 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[07-Apr-2013 00:38:55 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[07-Apr-2013 00:38:56 America/New_York] PHP Fatal error:  Class 'PDO' not found in /home/admin/public_html/selectdj/class/connectPDO.php on line 16
+[01-May-2013 04:06:22 America/New_York] PHP Warning:  PDO::exec() [<a href='pdo.exec'>pdo.exec</a>]: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1234' for key 'user_name' in /home/admin/public_html/selectdj/class/connectPDO.php on line 107
