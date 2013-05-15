@@ -31,13 +31,13 @@ function getHead($whereami='inicio')
 
     $contenido = '  <meta charset="UTF-8" />
     <meta name="google-site-verification" content="f68MwMpNNEEOuAHcxGNUsFuf-QHgEaWg_MVjy8wytUs" />
-    <meta property=og:image content="http://www.conectpj.com/imagenes/logos/logo.png"/>
+    <meta property=og:image content="imagenes/logos/logo.png"/>
     <meta name="description" content="Radio Online donde encontraras lo mejor de la musica, pop, electro, metal, cortavenas, y los mas divertidos locutores con sus ocurrencias y disparates pero siempre con el cariño y respeto que nuestro publico merece por que aquí en esta radio somos una familia, aunque nada de esto seria posible sin el esfuerzo de nuestros fundadores Phillip Mendoza Y Luis Rodriguez a los que se le debe un agradecimiento danos tu apoyo  se parte de esta familia que dia a dia crese y llega a ustedes con todo el cariño que se merecen xD!">
     <title>'.$titulo.'</title>
     <link href="http://fonts.googleapis.com/css?family=Titillium+Web:400italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="imagenes/logos/logo.ico" />
-    <link rel="image_src" href="http://www.conectpj.com/imagenes/logos/logo.png" />
+    <link rel="image_src" href="imagenes/logos/logo.png" />
     <link rel="stylesheet" href="_js/normalize.css" />
     <link rel="stylesheet" href="_css/estilo.css" />
     <script src="_js/prefixfree.min.js"></script>
