@@ -27,7 +27,7 @@ function getPrincipal($whereami='inicio')
 function getHead($whereami='inicio')
 {
     $dondeEstoy=($whereami=='inicio')?'':' - '.ucfirst($whereami);
-    $titulo = 'wWw.ConectPJ.cOm // La Radio Q\' Te Activa & Te Pone!!'.$dondeEstoy;
+    $titulo = 'wWw.ConectPJ.cOm // La Radio Q\' Te Activa &amp; Te Pone!!'.$dondeEstoy;
 
     $contenido = '  <meta charset="UTF-8" />
     <meta name="google-site-verification" content="f68MwMpNNEEOuAHcxGNUsFuf-QHgEaWg_MVjy8wytUs" />
@@ -36,18 +36,18 @@ function getHead($whereami='inicio')
     <title>'.$titulo.'</title>
     <link href="http://fonts.googleapis.com/css?family=Titillium+Web:400italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" href="imagenes/logos/logo.ico" />
-    <link rel="image_src" href="imagenes/logos/logo.png" />
-    <link rel="stylesheet" href="_js/normalize.css" />
-    <link rel="stylesheet" href="_css/estilo.css" />
-    <script src="_js/prefixfree.min.js"></script>
+    <link rel="shortcut icon" href="/imagenes/logos/logo.ico" />
+    <link rel="image_src" href="/imagenes/logos/logo.png" />
+    <link rel="stylesheet" href="/_js/normalize.css" />
+    <link rel="stylesheet" href="/_css/estilo.css" />
+    <script src="/_js/prefixfree.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>
             // Carga del locutor online
             $(document).on("ready",contDinamico);
             function contDinamico () {
-                var urlLocutorOnline = "../selectdj/_output/locutor_online_v2.php",
-                urlAnuncioActual = "../selectdj/_output/anuncio_actual_v2.php";
+                var urlLocutorOnline = "/selectdj/_output/locutor_online_v2.php",
+                urlAnuncioActual = "/selectdj/_output/anuncio_actual_v2.php";
                 var locOnline = $.get( urlLocutorOnline, function(data){
                     $("#espacio_locutor_online").html(data);
                 });
@@ -144,7 +144,7 @@ function getRadio()
 {
     $contenido = '<div id="radio">
                         <div id="repro">
-                            <iframe frameborder="0" src="http://conectpj.com/proyecto/1.swf"></iframe>
+                            <iframe frameborder="0" src="/_swf/1.swf"></iframe>
                         </div><!-- #espacio -->
                         <div id="escuchanos">
                             <a href="#"><img src="imagenes/BLACK BERRY.png"></a>
@@ -164,11 +164,11 @@ function getEventos($soloUltimo=false)
 {
     global $configuracion;
     $contenido = '<div class="name">
-                        <a href="'.$configuracion['prefijoURL'].'/noticias">EVENTOS :</a>
+                        <a href="/noticias">EVENTOS :</a>
                     </div>
                     <section class="contenido">
                         <div class="logo">
-                            <a href="" ><img src="imagenes/cotempologo.jpg"></a>
+                            <a href="" ><img src="/imagenes/cotempologo.jpg"></a>
                         </div><!-- logo-->
                         <div class="texto">
                             Contempo Event\'s Realizando los mejores eventos en Lima Norte.</br>
@@ -189,7 +189,7 @@ function getNoticias($soloUltimo=false)
         '_[TEXTO]_'
         );
     $templateNoticia .= '<div class="name">
-                        <a href="'.$configuracion['prefijoURL'].'/noticias">NOTICIAS :</a>
+                        <a href="/noticias">NOTICIAS :</a>
                     </div>
                     <div class="contenido">
                         <div class="tituloT">
@@ -231,7 +231,7 @@ function getNuevasCanciones($soloUltimo=false)
                         <img  src="_[URLIMAGEN]_" align="center" />
                         </div><!-- img -->
                         <div class="descarga">
-                            <a href="_[URLDESCARGA]_" target="_blank"><img src="imagenes/canciones/descarga.jpg"></a>
+                            <a href="_[URLDESCARGA]_" target="_blank"><img src="/imagenes/canciones/descarga.jpg"></a>
                         </div><!-- .descarga -->
                     </div>';
 
