@@ -109,6 +109,8 @@ function getNav($actualSeccion='inicio')
     $current['noticias']        =($actualSeccion=='noticias')?'actual':'';
     $current['cancionesnuevas'] =($actualSeccion=='cancionesnuevas')?'actual':'';
     $current['videos']          =($actualSeccion=='videos')?'actual':'';
+    $current['staff']          =($actualSeccion=='staff')?'actual':'';
+    $current['exclusivos']          =($actualSeccion=='exclusivos')?'actual':'';
     $current['eventos']         =($actualSeccion=='eventos')?'actual':'';
     $current['contacto']        =($actualSeccion=='contacto')?'actual':'';
     $variablesCurrent = array(
@@ -116,6 +118,8 @@ function getNav($actualSeccion='inicio')
             'noticias'        => '_[CURRENT_NOTICIAS]_',
             'cancionesnuevas' => '_[CURRENT_CANCIONESNUEVAS]_',
             'videos'          => '_[CURRENT_VIDEOS]_',
+            'staff'          => '_[CURRENT_STAFF]_',
+            'exclusivos'          => '_[CURRENT_EXCLUSIVOS]_',
             'eventos'         => '_[CURRENT_EVENTOS]_',
             'contacto'        => '_[CURRENT_CONTACTO]_',
             );
@@ -127,6 +131,8 @@ function getNav($actualSeccion='inicio')
             <li class="_[CURRENT_NOTICIAS]_ sobrecaja"><a href="noticias">NOTICIAS</a></li>
             <li class="_[CURRENT_CANCIONESNUEVAS]_ sobrecaja"><a href="cancionesnuevas">CANCIONES NUEVAS</a></li>
             <li class="_[CURRENT_VIDEOS]_ sobrecaja"><a href="videos">VIDEOS</a></li>
+            <li class="_[CURRENT_STAFF]_ sobrecaja"><a href="staff">STAFF</a></li>
+            <li class="_[CURRENT_EXCLUSIVOS]_ sobrecaja"><a href="exclusivos">EXCLUSIVOS</a></li>
             <li class="_[CURRENT_EVENTOS]_ sobrecaja"><a href="eventos">EVENTOS</a></li>
             <li class="_[CURRENT_CONTACTO]_ sobrecaja"><a href="contacto">CONTACTANOS</a></li>
         </ul>
